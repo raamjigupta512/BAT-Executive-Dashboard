@@ -1,0 +1,6 @@
+{
+  "name": "BAT CFO Executive Decision Intelligence Platform",
+  "description": "Executive Decision Intelligence Platform for British American Tobacco (BAT) Chief Financial Officer and Executive Committee.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

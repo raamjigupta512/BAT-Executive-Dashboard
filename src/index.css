@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Smooth CSS-based fade transition for chart view switches */
+@keyframes chartFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.chart-fade-in {
+  animation: chartFadeIn 280ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.chart-view-transition {
+  transition: opacity 240ms cubic-bezier(0.16, 1, 0.3, 1), transform 240ms cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
